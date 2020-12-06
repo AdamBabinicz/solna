@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Data from "./Data";
+import "./index.css";
 
 const Contact = () => {
   const [data, setData] = useState({
@@ -20,7 +21,7 @@ const Contact = () => {
     alert(`${data.phone}`);
   };
   return (
-    <div>
+    <div className="contact">
       <div className="my-5">
         <h1 className="text-center">Kontakt</h1>
       </div>

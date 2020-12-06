@@ -9,7 +9,7 @@ import ChildFriendlyIcon from "@material-ui/icons/ChildFriendly";
 
 const Navbar = () => {
   return (
-    <div className="container-fluid nav_bg ">
+    <div className="container-fluid nav_bg">
       <div className="row">
         <div className="col-10 mx-auto">
           <nav className="navbar navbar-expand-lg navbar-dark n">
