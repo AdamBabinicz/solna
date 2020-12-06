@@ -47,7 +47,7 @@ const Navbar = () => {
                   <NavLink
                     activeClassName="menu_active"
                     className="nav-link"
-                    to="/courses"
+                    to="/gallery"
                   >
                     <ImageIcon></ImageIcon> Galeria
                   </NavLink>
