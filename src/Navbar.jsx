@@ -2,9 +2,10 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import "./index.css";
 import HomeIcon from "@material-ui/icons/Home";
-import ContactMailIcon from "@material-ui/icons/ContactMail";
+import EmailIcon from "@material-ui/icons/Email";
 import InfoIcon from "@material-ui/icons/Info";
-import LaptopIcon from "@material-ui/icons/Laptop";
+import ImageIcon from "@material-ui/icons/Image";
+import ChildFriendlyIcon from "@material-ui/icons/ChildFriendly";
 
 const Navbar = () => {
   return (
@@ -13,7 +14,8 @@ const Navbar = () => {
         <div className="col-10 mx-auto">
           <nav className="navbar navbar-expand-lg navbar-dark n">
             <NavLink exact className="navbar-brand" to="/">
-              dom rodzinny na ul. Solnej
+              dom rodzinny przy ul. Solnej &nbsp;
+              <ChildFriendlyIcon></ChildFriendlyIcon>
             </NavLink>
             <button
               className="navbar-toggler"
@@ -47,7 +49,7 @@ const Navbar = () => {
                     className="nav-link"
                     to="/courses"
                   >
-                    <LaptopIcon></LaptopIcon> Galeria
+                    <ImageIcon></ImageIcon> Galeria
                   </NavLink>
                 </li>
                 <li className="nav-item">
@@ -65,7 +67,7 @@ const Navbar = () => {
                     className="nav-link"
                     to="/contact"
                   >
-                    <ContactMailIcon></ContactMailIcon> Kontakt
+                    <EmailIcon></EmailIcon> Kontakt
                   </NavLink>
                 </li>
               </ul>

@@ -22,7 +22,7 @@ const Data = [
     imgsrc: web2,
     title: "Na łące z rodzicami",
     content:
-      "Łąka ta służyła nam nie tylko do odpoczynku, ale również zaopatrywała nas w świeży chrzan i szczaw.",
+      "Łąka ta służyła nam nie tylko do odpoczynku, ale również zaopatrywała nas w świeży chrzan, szczaw i koper.",
   },
   {
     imgsrc: web3,
@@ -34,7 +34,7 @@ const Data = [
     imgsrc: web4,
     title: "Z łyżką",
     content:
-      "Łyżka ta służyła mi do nabierania piachu, który wówczas pokrywał wiele bocznych, niebrukowanych ulic Radomia.",
+      "Łyżką do zupy kopałem w piachu, który wówczas był nawierzchnią wielu bocznych, niebrukowanych ulic Radomia.",
   },
   {
     imgsrc: web5,

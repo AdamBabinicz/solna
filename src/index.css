@@ -22,9 +22,12 @@
   background: #333;
   color: #fff;
 }
-
+.navbar-brand {
+  color: rgba(255, 255, 255, 0.801) !important;
+}
 #header {
   margin-top: 80px;
+  margin-bottom: 80px;
 }
 .header-img {
   margin-top: 20px;

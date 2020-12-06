@@ -8,6 +8,8 @@ import Courses from "./Courses";
 import Contact from "./Contact";
 import Navbar from "./Navbar";
 import { createGlobalStyle, ThemeProvider } from "styled-components";
+import Footer from "./Footer";
+import Modal from "./modal/Modal";
 
 const GlobalStyle = createGlobalStyle`
 body{
@@ -29,8 +31,10 @@ const App = () => {
           <Route exact path="/about" component={About}></Route>
           <Route exact path="/courses" component={Courses}></Route>
           <Route exact path="/contact" component={Contact}></Route>
+          <Route path="/modal" component={Modal} exact />
           <Redirect to="/"></Redirect>
         </Switch>
+        <Footer />
       </>
     </ThemeProvider>
   );

@@ -7,7 +7,8 @@ const About = () => {
     <div>
       <Commons
         name="Razem z rodzicami Marianną i Józefem"
-        description="W drewnianym domu na ul. Solnej mieszkaliśmy 5 lat. Tutaj uczyłem się, ale bez powodzenia, grać na akordeonie. Lepiej wypadła mi jazda na rowerze. Największe wrażenie wywarły na mnie elementarz Falskiego i budynek z czerwonej cegły szkoły podstawowej nr 27, wyjęty jakby żywcem z tego podręcznika. Ostatecznie naukę podjąłem w innej, jeszcze bardziej szacownej szkole nr 11 na ul. Szkolnej (obecnie J. Grzecznarowskiego)."
+        description="W drewnianym domu przy ul. Solnej mieszkaliśmy 5 lat. Tutaj zacząłem rysować konie w bardzo oszczędnej, lapidarnej formie - (zbliżone nieco do naskalnych piktogramów z Alty - jeśli ktoś nie wie, jak wyglądały);
+        uczyłem się, ale bez powodzenia, grać na akordeonie. Lepiej wypadła mi jazda na rowerze. Największe wrażenie wywarły na mnie elementarz Falskiego i budynek z czerwonej cegły szkoły podstawowej nr 27, wyjęty jakby żywcem z tego kultowego dziś podręcznika. Ostatecznie naukę podjąłem w innej, jeszcze bardziej szacownej szkole nr 11 przy ul. Szkolnej (obecnie J. Grzecznarowskiego)."
         imgsrc={web1}
         visit="/contact"
         btname="Więcej"
