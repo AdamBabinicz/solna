@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "./index.css";
-import HomeIcon from "@material-ui/icons/Home";
+import HouseIcon from "@material-ui/icons/House";
 import EmailIcon from "@material-ui/icons/Email";
 import InfoIcon from "@material-ui/icons/Info";
 import ImageIcon from "@material-ui/icons/Image";
@@ -15,7 +15,7 @@ const Navbar = () => {
           <nav className="navbar navbar-expand-lg navbar-dark n">
             <NavLink exact className="navbar-brand" to="/">
               dom rodzinny przy ul. Solnej &nbsp;
-              <ChildFriendlyIcon></ChildFriendlyIcon>
+              <ChildFriendlyIcon />
             </NavLink>
             <button
               className="navbar-toggler"
@@ -40,7 +40,7 @@ const Navbar = () => {
                     className="nav-link"
                     to="/"
                   >
-                    <HomeIcon></HomeIcon> Start
+                    <HouseIcon /> Start
                   </NavLink>
                 </li>
                 <li className="nav-item">
@@ -49,7 +49,7 @@ const Navbar = () => {
                     className="nav-link"
                     to="/gallery"
                   >
-                    <ImageIcon></ImageIcon> Galeria
+                    <ImageIcon /> Galeria
                   </NavLink>
                 </li>
                 <li className="nav-item">
@@ -58,7 +58,7 @@ const Navbar = () => {
                     className="nav-link"
                     to="/about"
                   >
-                    <InfoIcon></InfoIcon> O mnie
+                    <InfoIcon /> O mnie
                   </NavLink>
                 </li>
                 <li className="nav-item">
@@ -67,7 +67,7 @@ const Navbar = () => {
                     className="nav-link"
                     to="/contact"
                   >
-                    <EmailIcon></EmailIcon> Kontakt
+                    <EmailIcon /> Kontakt
                   </NavLink>
                 </li>
               </ul>

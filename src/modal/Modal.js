@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUserSecret } from "@fortawesome/free-solid-svg-icons";
 import ScrollToTop from "../ScrollToTop";
+import SecurityIcon from "@material-ui/icons/Security";
 
 const ModalContainer = styled.div`
   display: flex;
@@ -48,7 +49,8 @@ const Modal = () => {
       <ScrollToTop />
       <ModalContainer>
         <Link to="/" className="link">
-          <FontAwesomeIcon icon={faUserSecret} />
+          {/* <FontAwesomeIcon icon={faUserSecret} /> */}
+          <SecurityIcon />
         </Link>
         <h1>Polityka prywatności i polityka cookies</h1>
         <h2>I Informacje ogólne</h2> <br />

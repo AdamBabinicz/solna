@@ -10,19 +10,19 @@ const Data = [
     imgsrc: web,
     title: "Ze stryjkiem Tadkiem i ojcem",
     content:
-      "Stryjek Tadek ze stryjenką Helą oraz synami Kazikiem i Markiem, mieszkali niedaleko na ul. Nowowolskiej.",
+      "Stryjek Tadek ze stryjenką Helą oraz synami Kazikiem i Markiem, mieszkali niedaleko na ul. Nowowolskiej. Dom stoi do dzisiaj.",
   },
   {
     imgsrc: web1,
     title: "Mój starszy kolega",
     content:
-      "Zbyszek był o kilka lat starszy ode mnie. Jego rodzice przyjaźnili się z moimi",
+      "Zbyszek był o kilka lat starszy ode mnie. Jego rodzice przyjaźnili się z moimi.",
   },
   {
     imgsrc: web2,
     title: "Na łące z rodzicami",
     content:
-      "Łąka ta służyła nam nie tylko do odpoczynku, ale również zaopatrywała nas w świeży chrzan, szczaw i koper.",
+      "Łąka ta służyła nam nie tylko do przechadzek, ale również zaopatrywała nas w świeży chrzan, szczaw i koper do kiszenia ogórków.",
   },
   {
     imgsrc: web3,

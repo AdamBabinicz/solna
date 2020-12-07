@@ -1,6 +1,7 @@
 import React from "react";
 import styled, { css } from "styled-components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import SecurityIcon from "@material-ui/icons/Security";
 // import { Button } from "../components/Button";
 // import Logo from "../images/1.jpg";
 // import { Marginer } from "../marginer";
@@ -374,7 +375,8 @@ function Footer(proops) {
               // target="_blank"
               // aria-label="RODO"
             >
-              <FontAwesomeIcon icon={faUserSecret} />
+              {/* <FontAwesomeIcon icon={faUserSecret} /> */}
+              <SecurityIcon />
             </LinkExt>
           </PrivacyContainer>
           <SocialContainer>
