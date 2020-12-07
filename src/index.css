@@ -1,3 +1,6 @@
+* {
+  overflow-x: hidden;
+}
 .menu_active {
   font-size: bold;
   border-bottom: 2px solid rgba(204, 204, 204, 0.87);
