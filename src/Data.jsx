@@ -8,7 +8,7 @@ import web5 from "./images/9.jpg";
 const Data = [
   {
     imgsrc: web,
-    title: "Ze stryjkiem Tadkiem i ojcem",
+    title: "Ze stryjkiem Tadkiem i ojcem Józefem",
     content:
       "Stryjek Tadek ze stryjenką Helą oraz synami Kazikiem i Markiem, mieszkali niedaleko na ul. Nowowolskiej. Dom stoi do dzisiaj.",
   },

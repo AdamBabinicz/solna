@@ -10,7 +10,7 @@ const Home = () => {
       Witolda, który przeżył zaledwie jeden rok.
       Imię Adam miało uchronić mnie przed przedwczesną śmiercią. Jako małe dziecko byłem bardzo chorowity - jak twierdzili rodzice, z powodu wilgoci i grzyba panujących w wynajętym pokoju."
       imgsrc={web}
-      visit="/courses"
+      visit="/gallery"
       btname="Więcej"
     ></Commons>
   );
