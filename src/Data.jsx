@@ -28,7 +28,7 @@ const Data = [
     imgsrc: web3,
     title: "Z ojcem",
     content:
-      "W najbliższej okolicy nie było żdnego ruchu samochodowego. Na spacer wychodziłem z ojcem lub sam.",
+      "W najbliższej okolicy nie było żdnego ruchu zmotoryzowanego. Na spacer wychodziłem z ojcem lub sam.",
   },
   {
     imgsrc: web4,
