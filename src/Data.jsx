@@ -22,7 +22,7 @@ const Data = [
     imgsrc: web2,
     title: "Na łące z rodzicami",
     content:
-      "Łąka ta służyła nam nie tylko do przechadzek, ale również zaopatrywała nas w świeży chrzan, szczaw i koper do kiszenia ogórków.",
+      "Łąka ta służyła nam nie tylko do przechadzek, ale również zaopatrywała nas w świeży szczaw, chrzan i koper do kiszenia ogórków.",
   },
   {
     imgsrc: web3,
