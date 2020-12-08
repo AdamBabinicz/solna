@@ -3,21 +3,21 @@ import "./Slider.css";
 import ArrowLeftIcon from "@material-ui/icons/ArrowLeft";
 import ArrowRightIcon from "@material-ui/icons/ArrowRight";
 import ImgComp from "./ImgComp";
-import i1 from "./images/8.jpg";
-import i2 from "./images/10.jpg";
-// import i3 from "../images/gallery/31.jpg";
-// import i4 from "../images/gallery/36.jpg";
-// import i5 from "../images/gallery/29.jpg";
-// import i6 from "../images/gallery/18.jpg";
-// import i7 from "../images/gallery/48.jpg";
-// import i8 from "../images/gallery/19.jpg";
-// import i9 from "../images/gallery/49.jpg";
-// import i10 from "../images/gallery/27.jpg";
-// import i11 from "../images/gallery/24.jpg";
-// import i12 from "../images/gallery/16.jpg";
-// import i13 from "../images/gallery/38.jpg";
-// import i14 from "../images/gallery/32.jpg";
-// import i15 from "../images/gallery/34.jpg";
+import i1 from "./images/10.jpg";
+import i2 from "./images/11.jpg";
+import i3 from "./images/12.jpg";
+import i4 from "./images/16.jpg";
+import i5 from "./images/23.jpg";
+import i6 from "./images/19.jpg";
+import i7 from "./images/21.jpg";
+import i8 from "./images/20.jpg";
+import i9 from "./images/14.jpg";
+import i10 from "./images/13.jpg";
+import i11 from "./images/22.jpg";
+import i12 from "./images/8.jpg";
+import i13 from "./images/18.jpg";
+import i14 from "./images/15.jpg";
+import i15 from "./images/17.jpg";
 // import i16 from "../images/gallery/47.jpg";
 // import i17 from "../images/gallery/13.jpg";
 // import i18 from "../images/gallery/21.jpg";
@@ -45,19 +45,19 @@ function Slider() {
   let sliderArr = [
     <ImgComp src={i1} />,
     <ImgComp src={i2} />,
-    // <ImgComp src={i3} />,
-    // <ImgComp src={i4} />,
-    // <ImgComp src={i5} />,
-    // <ImgComp src={i6} />,
-    // <ImgComp src={i7} />,
-    // <ImgComp src={i8} />,
-    // <ImgComp src={i9} />,
-    // <ImgComp src={i10} />,
-    // <ImgComp src={i11} />,
-    // <ImgComp src={i12} />,
-    // <ImgComp src={i13} />,
-    // <ImgComp src={i14} />,
-    // <ImgComp src={i15} />,
+    <ImgComp src={i3} />,
+    <ImgComp src={i4} />,
+    <ImgComp src={i5} />,
+    <ImgComp src={i6} />,
+    <ImgComp src={i7} />,
+    <ImgComp src={i8} />,
+    <ImgComp src={i9} />,
+    <ImgComp src={i10} />,
+    <ImgComp src={i11} />,
+    <ImgComp src={i12} />,
+    <ImgComp src={i13} />,
+    <ImgComp src={i14} />,
+    <ImgComp src={i15} />,
     // <ImgComp src={i16} />,
     // <ImgComp src={i17} />,
     // <ImgComp src={i18} />,
