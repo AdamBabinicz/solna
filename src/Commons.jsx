@@ -14,6 +14,8 @@ const Commons = (props) => {
                 <div className="col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column">
                   <h1>{props.name}</h1>
                   <p className="my-3">{props.description}</p>
+                  <p className="my-3">{props.description1}</p>
+                  <p className="my-3">{props.description2}</p>
                   <div className="mt-3">
                     <NavLink to={props.visit} className="btn-get-started">
                       {props.btname}
