@@ -18,8 +18,8 @@ import i12 from "./images/8.jpg";
 import i13 from "./images/18.jpg";
 import i14 from "./images/15.jpg";
 import i15 from "./images/17.jpg";
-// import i16 from "../images/gallery/47.jpg";
-// import i17 from "../images/gallery/13.jpg";
+import i16 from "./images/24.jpg";
+import i17 from "./images/25.jpg";
 // import i18 from "../images/gallery/21.jpg";
 // import i19 from "../images/gallery/22.jpg";
 // import i20 from "../images/gallery/23.jpg";
@@ -58,8 +58,8 @@ function Slider() {
     <ImgComp src={i13} />,
     <ImgComp src={i14} />,
     <ImgComp src={i15} />,
-    // <ImgComp src={i16} />,
-    // <ImgComp src={i17} />,
+    <ImgComp src={i16} />,
+    <ImgComp src={i17} />,
     // <ImgComp src={i18} />,
     // <ImgComp src={i19} />,
     // <ImgComp src={i20} />,
