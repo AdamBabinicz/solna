@@ -15,7 +15,7 @@ const Data = [
     img: img1,
     Title: "Zamiana",
     p: "Lubiłem wizyty u mojego stryjka i stryjenki. Ich syn Kazik był starszy nieco, ale Marek był moim rówieśnikiem. Pamiętam, gdy kiedyś zamieniłem się z Markiem na przedmioty. On dał mi książkę „Dziadek do orzechów”, a ja jemu drewniany pistolet.",
-    em: "to wydarzenie miało miejsce, gdy mieszkaliśmy na ul. Czarnej.",
+    em: "",
   },
   {
     imgsrc: web1,
