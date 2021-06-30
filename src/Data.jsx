@@ -59,7 +59,7 @@ const Data = [
       "Łyżką do zupy kopałem w piachu, który wówczas był nawierzchnią wielu bocznych, niebrukowanych ulic Radomia.",
     img: img5,
     Title: "Koń na biegunach",
-    p: "Samego konia nie pamiętam, natomiast jego bujną grzywę - jak najbardziej. Z powodu tej grzywy, na którą reagowałem panicznym lękiem, rodzice pozbyli się bujanki. W zamian dostałem drewnianą bryczkę z dwoma konikami kupioną na jarmarku. Gdy ciągnąłem na sznurku koniki, jeden z woźniców obecnych na Korei, zamachnął się batem i uciął łeb jednemu z koni. Byłem tak zrozpaczony, że rodzice wrócili do sprzedawcy i kupili mi nową bryczkę.",
+    p: "Samego konia nie pamiętam, natomiast jego bujną grzywę - jak najbardziej. Z powodu tej grzywy, na którą reagowałem panicznym lękiem, rodzice pozbyli się bujanki. W zamian dostałem drewnianą bryczkę z dwoma konikami. Gdy ciągnąłem na sznurku koniki, jeden z woźniców obecnych na Korei, zamachnął się batem i uciął łeb jednemu z koni. Byłem tak zrozpaczony, że rodzice kupili mi nową bryczkę.",
     em: "",
   },
   {
@@ -69,7 +69,7 @@ const Data = [
       "Po wypróbowaniu jak smakuje piach z ul. Bakermanów (obecnie Parkowej), wracałem na swoje podwórko na ul. Solnej.",
     img: img6,
     Title: "Motocykl za migdałka",
-    p: "Z powodu moich problemów z migdałkiem środkowym, udałem się z rodzicami do gabinetu zabiegowego w kamienicy na Placu Konstytucji na drugim lub trzecim piętrze. Siedziałem już na fotelu, ale skorzystałem z nieuwagi lekarza i asystentki, i wybiegłem z gabinetu. Po schodach zbiegłem na dół i dopiero na ulicy dogonił mnie mój ojciec. W nagrodę za pozbycie się migdałka dostałem mały plastikowy motocykl.",
+    p: "Z powodu moich problemów z migdałkiem, udałem się z rodzicami do gabinetu zabiegowego w kamienicy na Placu Konstytucji na drugim piętrze. Siedziałem już na fotelu, ale skorzystałem z nieuwagi lekarza i asystentki, i wybiegłem z gabinetu. Dopiero na ulicy dogonił mnie mój ojciec. W nagrodę za pozbycie się migdałka dostałem zabawkę motocykl.",
     em: "",
   },
 ];
