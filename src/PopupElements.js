@@ -30,6 +30,7 @@ export const PopupInner = styled.div`
   max-height: 100%;
   max-width: 640px;
   background: #fff;
+  z-index: 2;
 
   img {
     max-width: 70%;
