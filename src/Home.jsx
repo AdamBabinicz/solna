@@ -2,7 +2,7 @@ import React from "react";
 import Commons from "./Commons";
 import web from "./images/1.png";
 import ScrollToTop from "./ScrollToTop";
-import img1 from "./images/2.png";
+import img1 from "./images/28.jpg";
 
 const Home = () => {
   return (
