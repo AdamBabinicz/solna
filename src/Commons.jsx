@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import "./index.css";
 import { NavLink } from "react-router-dom";
-import web from "./images/1.png";
+import Popup from "./Popup";
 
 const Commons = (props) => {
+  const [buttonPopup, setButtonPopup] = useState(false);
+
   return (
     <div>
       <section id="header" className="d-flex align-items-center">
@@ -17,10 +19,20 @@ const Commons = (props) => {
                   <p className="my-3">{props.description1}</p>
                   <p className="my-3">{props.description2}</p>
                   <div className="mt-3">
-                    <NavLink to={props.visit} className="btn-get-started">
+                    <button
+                      onClick={() => setButtonPopup(true)}
+                      primary={true}
+                      className="btn-get-started"
+                    >
                       {props.btname}
-                    </NavLink>
+                    </button>
                   </div>
+                  <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
+                    <h3>{props.title}</h3> <br />
+                    <img src={props.img} /> <br />
+                    <p>{props.p}</p>
+                    <em>{props.em}</em>
+                  </Popup>
                 </div>
                 <div className="col-lg-6 order-1 order-lg-2 header-img">
                   <img

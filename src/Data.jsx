@@ -4,6 +4,7 @@ import web2 from "./images/3.jpg";
 import web3 from "./images/6.jpg";
 import web4 from "./images/7.jpg";
 import web5 from "./images/9.jpg";
+import img1 from "./images/27.jpg";
 
 const Data = [
   {
@@ -11,6 +12,10 @@ const Data = [
     title: "Ze stryjkiem Tadkiem i ojcem Józefem",
     content:
       "Stryjek Tadek ze stryjenką Helą oraz synami Kazikiem i Markiem, mieszkali niedaleko na ul. Nowowolskiej. Dom stoi do dzisiaj.",
+    img: img1,
+    Title: "Zamiana",
+    p: "Lubiłem wizyty u mojego stryjka i stryjenki. Ich syn Kazik był starszy nieco, ale Marek był moim rówieśnikiem. Pamiętam, gdy kiedyś zamieniłem się z Markiem na przedmioty. On dał mi książkę „Dziadek do orzechów”, a ja jemu drewniany pistolet.",
+    em: "to wydarzenie miało miejsce, gdy mieszkaliśmy na ul. Czarnej.",
   },
   {
     imgsrc: web1,

@@ -19,6 +19,10 @@ const Courses = () => {
                     imgsrc={val.imgsrc}
                     title={val.title}
                     content={val.content}
+                    Title={val.Title}
+                    img={val.img}
+                    p={val.p}
+                    em={val.em}
                   />
                 );
               })}

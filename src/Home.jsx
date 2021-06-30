@@ -2,6 +2,7 @@ import React from "react";
 import Commons from "./Commons";
 import web from "./images/1.png";
 import ScrollToTop from "./ScrollToTop";
+import img1 from "./images/2.png";
 
 const Home = () => {
   return (
@@ -13,8 +14,11 @@ const Home = () => {
       Witolda, który przeżył zaledwie jeden rok."
         description1="Imię Adam miało uchronić mnie przed przedwczesną śmiercią. Jako małe dziecko byłem bardzo chorowity - jak twierdzili rodzice, z powodu wilgoci i grzyba panujących w wynajętym pokoju."
         imgsrc={web}
-        visit="/gallery"
         btname="Więcej"
+        title="Jako niemowlak"
+        img={img1}
+        p="Za każdym razem, gdy na świat przychodzi dziecko, świat jest tworzony od nowa."
+        em="Jostein Gaarder „W zwierciadle niejasno”"
       ></Commons>
     </>
   );
