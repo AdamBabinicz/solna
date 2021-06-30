@@ -19,7 +19,7 @@ body {
   font-size: 20px;
   text-decoration: none;
   transition: all 0.3s ease-in-out;
-  z-index: 1000;
+  z-index: 1;
 }
 .btn-get-started:hover {
   background: #333;
