@@ -69,7 +69,7 @@ const Data = [
       "Po wypróbowaniu jak smakuje piach z ul. Bakermanów (obecnie Parkowej), wracałem na swoje podwórko na ul. Solnej.",
     img: img6,
     Title: "Motocykl za migdałka",
-    p: "Z powodu moich problemów z migdałkiem, udałem się z rodzicami do gabinetu zabiegowego w kamienicy na Placu Konstytucji na drugim piętrze. Siedziałem już w fotelu pełen lęku, i wtedy skorzystałem z nieuwagi lekarza oraz asystentki, i wybiegłem z gabinetu. Dopiero na ulicy dogonił mnie mój ojciec. W nagrodę za pozbycie się migdałka dostałem zabawkę - motocykl.",
+    p: "Z powodu moich problemów z migdałkiem, udałem się z rodzicami do gabinetu zabiegowego w kamienicy na Placu Konstytucji na drugim piętrze. Siedziałem już w fotelu pełen lęku, i wtedy korzystając z nieuwagi lekarza oraz asystentki, wybiegłem z gabinetu. Dopiero na ulicy dogonił mnie mój ojciec. W nagrodę za pozbycie się migdałka dostałem zabawkę - motocykl.",
     em: "",
   },
 ];
