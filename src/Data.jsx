@@ -19,7 +19,7 @@ const Data = [
       "Stryjek Tadek ze stryjenką Helą oraz synami Kazikiem i Markiem, mieszkali niedaleko na ul. Nowowolskiej. Dom stoi do dzisiaj.",
     img: img1,
     Title: "Zamiana",
-    p: "Lubiłem wizyty u mojego stryjka i stryjenki. Ich syn Kazik był starszy nieco, ale Marek był moim rówieśnikiem. Pamiętam, gdy kiedyś zamieniłem się z Markiem na przedmioty. On dał mi książkę „Dziadek do orzechów”, a ja jemu drewniany pistolet.",
+    p: "Lubiłem wizyty u mojego stryjka i stryjenki. Ich syn Kazik był nieco starszy, ale Marek to mój rówieśnik. Pamiętam, że zamieniłem się z Markiem na przedmioty. On dał mi książkę „Dziadek do orzechów”, a ja jemu drewniany pistolet.",
     em: "",
   },
   {
@@ -29,7 +29,7 @@ const Data = [
       "Zbyszek był o kilka lat starszy ode mnie. Jego rodzice przyjaźnili się z moimi.",
     img: img2,
     Title: "Mój pierwszy drink",
-    p: "Podczas przyjęcia z okazji chrzcin mojej siostry, gdy goście poszli tańczyć, podszedłem do stołu i dopiłem wszystkie kieliszki, w których cokolwiek się znajdowało. Moja przygoda z mocnymi napojami zakończyła się 2-dniowym snem. Miałem wtedy ponad 2 lata.",
+    p: "Podczas przyjęcia z okazji chrzcin mojej siostry, gdy goście poszli tańczyć, podszedłem do stołu i dopiłem zawartość kieliszków, w których cokolwiek się znajdowało. Moja przygoda z mocnymi napojami zakończyła się 2-dniowym snem. Miałem wtedy ponad 2 lata.",
     em: "",
   },
   {
@@ -39,7 +39,7 @@ const Data = [
       "Łąka ta służyła nam nie tylko do przechadzek, ale również zaopatrywała nas w świeży szczaw, chrzan i koper do kiszenia ogórków.",
     img: img3,
     Title: "Nauka jazdy na rowerze",
-    p: "Jako jeden z pierwszych na ulicy miałem rower. Pierwsza udana jazda wyglądała w ten sposób, że zachowując równowagę, przejechałem w poprzek ulicy Solnej i wjechałem na podwórko Ciszków, ale tylko dlatego, że furtka była otwarta. Niestety nie umiałem jeszcze hamować.",
+    p: "Jako jeden z pierwszych na ulicy miałem rower. Pierwsza udana jazda wyglądała w ten sposób, że zachowując równowagę, przejechałem w poprzek ulicy Solnej i wjechałem w podwórko Ciszków, ale tylko dlatego, że furtka była otwarta. Niestety nie umiałem jeszcze hamować.",
     em: "",
   },
   {
@@ -59,7 +59,7 @@ const Data = [
       "Łyżką do zupy kopałem w piachu, który wówczas był nawierzchnią wielu bocznych, niebrukowanych ulic Radomia.",
     img: img5,
     Title: "Koń na biegunach",
-    p: "Samego konia nie pamiętam, natomiast jego bujną grzywę - jak najbardziej. Z powodu tej grzywy, na którą reagowałem panicznym lękiem, rodzice pozbyli się bujanki. W zamian dostałem drewnianą bryczkę z dwoma konikami. Gdy ciągnąłem na sznurku koniki, jeden z woźniców obecnych na Korei, zamachnął się batem i uciął łeb jednemu z koni. Byłem tak zrozpaczony, że rodzice kupili mi nową bryczkę.",
+    p: "Samego konia nie pamiętam, natomiast jego bujną grzywę - jak najbardziej. Z powodu tej grzywy, na którą reagowałem panicznym lękiem, rodzice pozbyli się bujanki. W zamian dostałem drewnianą bryczkę z dwoma konikami. Gdy ciągnąłem na sznurku koniki, jeden z woźniców obecnych na Korei, zamachnął się batem i uciął łeb jednemu z koników. Byłem zrozpaczony, więc rodzice kupili mi nową bryczkę.",
     em: "",
   },
   {
@@ -69,7 +69,7 @@ const Data = [
       "Po wypróbowaniu jak smakuje piach z ul. Bakermanów (obecnie Parkowej), wracałem na swoje podwórko na ul. Solnej.",
     img: img6,
     Title: "Motocykl za migdałka",
-    p: "Z powodu moich problemów z migdałkiem, udałem się z rodzicami do gabinetu zabiegowego w kamienicy na Placu Konstytucji na drugim piętrze. Siedziałem już na fotelu, ale skorzystałem z nieuwagi lekarza i asystentki, i wybiegłem z gabinetu. Dopiero na ulicy dogonił mnie mój ojciec. W nagrodę za pozbycie się migdałka dostałem zabawkę motocykl.",
+    p: "Z powodu moich problemów z migdałkiem, udałem się z rodzicami do gabinetu zabiegowego w kamienicy na Placu Konstytucji na drugim piętrze. Siedziałem już w fotelu pełen lęku, i wtedy skorzystałem z nieuwagi lekarza oraz asystentki, i wybiegłem z gabinetu. Dopiero na ulicy dogonił mnie mój ojciec. W nagrodę za pozbycie się migdałka dostałem zabawkę - motocykl.",
     em: "",
   },
 ];
