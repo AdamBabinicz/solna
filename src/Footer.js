@@ -62,6 +62,11 @@ const PrivacyContainer = styled.div`
 `;
 const SocialContainer = styled.div`
   display: flex;
+
+  @media screen and (max-width: 480px) {
+    flex-direction: column;
+    justify-content: center;
+  }
 `;
 const SocialIcon = styled.div`
   color: ${theme.primary};
@@ -70,10 +75,11 @@ const SocialIcon = styled.div`
   cursor: pointer;
 
   &:not(:last-of-type) {
-    margin-right: 11px;
+    margin-right: 3rem;
 
     @media screen and (max-width: 480px) {
-      margin-right: 9px;
+      margin-bottom: 1rem;
+      margin-right: 0;
     }
   }
   @media screen and (max-width: 480px) {
