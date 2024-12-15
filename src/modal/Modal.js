@@ -229,6 +229,7 @@ const Modal = () => {
             to="//a-g.netlify.app/modal"
             rel="noopener noreferrer"
             target="_blank"
+            aria-label="Otwórz Politykę Prywatności"
           >
             &nbsp; czarna.netlify.app/modal
           </Link>

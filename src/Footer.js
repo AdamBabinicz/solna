@@ -219,7 +219,10 @@ function Footer(proops) {
       <FooterContainer name="footer">
         <AccessibilityContainer>
           <PrivacyContainer>
-            <LinkExt to="/modal">
+            <LinkExt
+              to="/modal"
+              aria-label="Otwórz modal z dodatkowymi opcjami"
+            >
               <SecurityIcon />
             </LinkExt>
           </PrivacyContainer>
