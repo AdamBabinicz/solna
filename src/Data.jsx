@@ -1,15 +1,15 @@
-import web from "./images/5.jpg";
-import web1 from "./images/4.jpg";
-import web2 from "./images/3.jpg";
-import web3 from "./images/6.jpg";
-import web4 from "./images/7.jpg";
-import web5 from "./images/9.jpg";
-import img1 from "./images/27.jpg";
-import img2 from "./images/29.jpg";
-import img3 from "./images/30.jpg";
-import img4 from "./images/31.jpg";
-import img5 from "./images/32.jpg";
-import img6 from "./images/33.jpg";
+import web from "./images/5.avif";
+import web1 from "./images/4.avif";
+import web2 from "./images/3.avif";
+import web3 from "./images/6.avif";
+import web4 from "./images/7.avif";
+import web5 from "./images/9.avif";
+import img1 from "./images/27.avif";
+import img2 from "./images/29.avif";
+import img3 from "./images/30.avif";
+import img4 from "./images/31.avif";
+import img5 from "./images/32.avif";
+import img6 from "./images/33.avif";
 
 const Data = [
   {

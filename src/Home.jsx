@@ -1,8 +1,8 @@
 import React from "react";
 import Commons from "./Commons";
-import web from "./images/1.png";
+import web from "./images/1.avif";
 import ScrollToTop from "./ScrollToTop";
-import img1 from "./images/28.jpg";
+import img1 from "./images/28.avif";
 
 const Home = () => {
   return (

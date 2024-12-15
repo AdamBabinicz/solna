@@ -3,43 +3,23 @@ import "./Slider.css";
 import ArrowLeftIcon from "@material-ui/icons/ArrowLeft";
 import ArrowRightIcon from "@material-ui/icons/ArrowRight";
 import ImgComp from "./ImgComp";
-import i1 from "./images/10.jpg";
-import i2 from "./images/11.jpg";
-import i3 from "./images/12.jpg";
-import i4 from "./images/16.jpg";
-import i5 from "./images/23.jpg";
-import i6 from "./images/19.jpg";
-import i7 from "./images/24.jpg";
-import i8 from "./images/25.jpg";
-import i9 from "./images/21.jpg";
-import i10 from "./images/20.jpg";
-import i11 from "./images/14.jpg";
-import i12 from "./images/13.jpg";
-import i13 from "./images/22.jpg";
-import i14 from "./images/8.jpg";
-import i15 from "./images/18.jpg";
-import i16 from "./images/15.jpg";
-import i17 from "./images/17.jpg";
-// import i18 from "../images/gallery/21.jpg";
-// import i19 from "../images/gallery/22.jpg";
-// import i20 from "../images/gallery/23.jpg";
-// import i21 from "../images/gallery/11.jpg";
-// import i22 from "../images/gallery/25.jpg";
-// import i23 from "../images/gallery/35.jpg";
-// import i24 from "../images/gallery/14.jpg";
-// import i25 from "../images/gallery/28.jpg";
-// import i26 from "../images/gallery/26.jpg";
-// import i27 from "../images/gallery/20.jpg";
-// import i28 from "../images/gallery/33.jpg";
-// import i29 from "../images/gallery/12.jpg";
-// import i30 from "../images/gallery/39.jpg";
-// import i31 from "../images/gallery/37.jpg";
-// import i32 from "../images/gallery/30.jpg";
-// import i33 from "../images/gallery/40.jpg";
-// import i34 from "../images/gallery/41.jpg";
-// import i35 from "../images/gallery/46.jpg";
-// import i36 from "../images/gallery/42.jpg";
-// import i37 from "../images/gallery/43.jpg";
+import i1 from "./images/10.avif";
+import i2 from "./images/11.avif";
+import i3 from "./images/12.avif";
+import i4 from "./images/16.avif";
+import i5 from "./images/23.avif";
+import i6 from "./images/19.avif";
+import i7 from "./images/24.avif";
+import i8 from "./images/25.avif";
+import i9 from "./images/21.avif";
+import i10 from "./images/20.avif";
+import i11 from "./images/35.avif";
+import i12 from "./images/13.avif";
+import i13 from "./images/22.avif";
+import i14 from "./images/8.avif";
+import i15 from "./images/18.avif";
+import i16 from "./images/15.avif";
+import i17 from "./images/17.avif";
 
 function Slider() {
   let sliderArr = [
@@ -60,26 +40,6 @@ function Slider() {
     <ImgComp src={i15} />,
     <ImgComp src={i16} />,
     <ImgComp src={i17} />,
-    // <ImgComp src={i18} />,
-    // <ImgComp src={i19} />,
-    // <ImgComp src={i20} />,
-    // <ImgComp src={i21} />,
-    // <ImgComp src={i22} />,
-    // <ImgComp src={i23} />,
-    // <ImgComp src={i24} />,
-    // <ImgComp src={i25} />,
-    // <ImgComp src={i26} />,
-    // <ImgComp src={i27} />,
-    // <ImgComp src={i28} />,
-    // <ImgComp src={i29} />,
-    // <ImgComp src={i30} />,
-    // <ImgComp src={i31} />,
-    // <ImgComp src={i32} />,
-    // <ImgComp src={i33} />,
-    // <ImgComp src={i34} />,
-    // <ImgComp src={i35} />,
-    // <ImgComp src={i36} />,
-    // <ImgComp src={i37} />,
   ];
 
   const [x, setX] = useState(0);

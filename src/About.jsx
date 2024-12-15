@@ -1,7 +1,7 @@
 import React from "react";
 import Commons from "./Commons";
-import web1 from "./images/2.jpg";
-import img1 from "./images/26.jpg";
+import web1 from "./images/2.avif";
+import img1 from "./images/26.avif";
 
 const About = () => {
   return (

@@ -2,9 +2,6 @@ import React from "react";
 import styled, { css } from "styled-components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import SecurityIcon from "@material-ui/icons/Security";
-// import { Button } from "../components/Button";
-// import Logo from "../images/1.jpg";
-// import { Marginer } from "../marginer";
 import { theme } from "./theme";
 import {
   faTwitter,
@@ -340,8 +337,8 @@ function Footer(proops) {
             {/* <ModalContainer>
                <p>
                 <FontAwesomeIcon icon={faCode} />
-              </p> 
-               <Skills> 
+              </p>
+               <Skills>
                   <span>
                     <FontAwesomeIcon icon={faHtml5} />
                   </span>
@@ -366,7 +363,7 @@ function Footer(proops) {
                   <span>
                     <FontAwesomeIcon icon={faPhp} />
                   </span>
-                </Skills> 
+                </Skills>
             </ModalContainer> */}
 
             <LinkExt
