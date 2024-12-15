@@ -12,8 +12,6 @@ import {
 import { faUserSecret } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 import { scroller } from "react-scroll";
-// import Popup from "reactjs-popup";
-// import "reactjs-popup/dist/index.css";
 import FooterElements from "./FooterElements.css";
 
 const FooterContainer = styled.div`
@@ -216,163 +214,12 @@ function Footer(proops) {
     scroller.scrollTo("about", { smooth: true, duration: 1500 });
   };
 
-  // const outside = useRef();
-  // const [isOpen, setIsOpen] = useState(false);
-  // const handleClick = (e) => {
-  //   if (outside.current.contains(e.target)) {
-  //     return;
-  //   }
-  //   setIsOpen(false);
-  // };
-
-  // useEffect(() => {
-  //   const getClick = document.addEventListener("click", handleClick);
-
-  //   return () => {
-  //     getClick();
-  //   };
-  // }, []);
-
   return (
     <>
       <FooterContainer name="footer">
-        {/* <Marginer direction="vertical" margin="5em" /> */}
-        {/* <Logo /> */}
-        {/* <Marginer direction="vertical" margin="1em" /> */}
-        {/* <MotivationalText>
-          W sieci jest ponad 1,5 miliarda stron www.
-        </MotivationalText>
-        <MotivationalText>Czy masz już swoją?</MotivationalText> */}
-        {/* <Marginer direction="vertical" margin="1em" /> */}
-        {/* <Button onClick={scrollToAbout}>O mnie</Button> */}
-        {/* <Marginer direction="vertical" margin="5em" /> */}
         <AccessibilityContainer>
           <PrivacyContainer>
-            <LinkExt to="/mail">
-              {/* <FontAwesomeIcon icon={faEnvelope} /> */}
-            </LinkExt>
-
-            {/* <LinkExt> */}
-            {/* <FontAwesomeIcon
-                icon={faCode}
-                trigger={<button className="button"> </button>}
-                modal
-                nested
-              /> */}
-
-            {/* <Popup
-              trigger={
-                <LinkExt className="button">
-                  <FontAwesomeIcon icon={faCode} />
-                </LinkExt>
-              }
-              modal
-              nested
-            >
-              {(close) => (
-                <Modal>
-                  <Button smallB onClick={close}>
-                    &times;
-                  </Button>
-                  <Header>
-                    <FontAwesomeIcon icon={faCode} />
-                  </Header>
-                  <Content>
-                    <Skills>
-                      <SpanSkill>
-                        <FontAwesomeIcon icon={faHtml5} />
-                      </SpanSkill>
-                      <SpanSkill>
-                        <FontAwesomeIcon icon={faCss3} />
-                      </SpanSkill>
-                      <SpanSkill>
-                        <FontAwesomeIcon icon={faSass} />
-                      </SpanSkill>
-                      <SpanSkill>
-                        <FontAwesomeIcon icon={faGit} />
-                      </SpanSkill>
-                      <SpanSkill>
-                        <FontAwesomeIcon icon={faGithub} />
-                      </SpanSkill>
-                      <SpanSkill>
-                        <FontAwesomeIcon icon={faJs} />
-                      </SpanSkill>
-                      <SpanSkill>
-                        <FontAwesomeIcon icon={faReact} />
-                      </SpanSkill>
-                      <SpanSkill>
-                        <FontAwesomeIcon icon={faPhp} />
-                      </SpanSkill>
-                      <SpanSkill>
-                        <FontAwesomeIcon icon={faBootstrap} />
-                      </SpanSkill>
-                      <SpanSkill>
-                        <FontAwesomeIcon icon={faNode} />
-                      </SpanSkill>
-                    </Skills>
-                  </Content>
-                  <Actions>
-                    <Popup
-                      trigger={<Button>więcej</Button>}
-                      position="contain"
-                      nested
-                      modal
-                    >
-                      <SpanText>
-                        Języki programowania stosowane w moich projektach
-                      </SpanText>
-                    </Popup>
-                    <Button
-                      onClick={() => {
-                        close();
-                      }}
-                    >
-                      zamknij
-                    </Button>
-                  </Actions>
-                </Modal>
-              )}
-            </Popup> */}
-
-            {/* <ModalContainer>
-               <p>
-                <FontAwesomeIcon icon={faCode} />
-              </p>
-               <Skills>
-                  <span>
-                    <FontAwesomeIcon icon={faHtml5} />
-                  </span>
-                  <span>
-                    <FontAwesomeIcon icon={faCss3} />
-                  </span>
-                  <span>
-                    <FontAwesomeIcon icon={faSass} />
-                  </span>
-                  <span>
-                    <FontAwesomeIcon icon={faGit} />
-                  </span>
-                  <span>
-                    <FontAwesomeIcon icon={faGithub} />
-                  </span>
-                  <span>
-                    <FontAwesomeIcon icon={faJs} />
-                  </span>
-                  <span>
-                    <FontAwesomeIcon icon={faReact} />
-                  </span>
-                  <span>
-                    <FontAwesomeIcon icon={faPhp} />
-                  </span>
-                </Skills>
-            </ModalContainer> */}
-
-            <LinkExt
-              to="/modal"
-              // rel="noopener noreferrer"
-              // target="_blank"
-              // aria-label="RODO"
-            >
-              {/* <FontAwesomeIcon icon={faUserSecret} /> */}
+            <LinkExt to="/modal">
               <SecurityIcon />
             </LinkExt>
           </PrivacyContainer>
@@ -382,7 +229,7 @@ function Footer(proops) {
                 to="//www.facebook.com/adam.gierczak.334"
                 rel="noopener noreferrer"
                 target="_blank"
-                aria-label="Facebook"
+                aria-label="Odwiedź mój profil na Facebooku"
               >
                 <FontAwesomeIcon icon={faFacebook} />
               </LinkExt>
@@ -392,7 +239,7 @@ function Footer(proops) {
                 to="//twitter.com/AdamBabinicz"
                 rel="noopener noreferrer"
                 target="_blank"
-                aria-label="Twitter"
+                aria-label="Odwiedź mój profil na Twitterze"
               >
                 <FontAwesomeIcon icon={faTwitter} />
               </LinkExt>
@@ -402,7 +249,7 @@ function Footer(proops) {
                 to="//google.com"
                 rel="noopener noreferrer"
                 target="_blank"
-                aria-label="Google"
+                aria-label="Odwiedź mój profil w Google"
               >
                 <FontAwesomeIcon icon={faGoogle} />
               </LinkExt>
@@ -412,6 +259,7 @@ function Footer(proops) {
                 to="//github.com/AdamBabinicz"
                 rel="noopener noreferrer"
                 target="_blank"
+                aria-label="Odwiedź mój profil na Githubie"
               >
                 <FontAwesomeIcon icon={faGithub} />
               </LinkExt>
@@ -422,6 +270,7 @@ function Footer(proops) {
           to="//a-g.netlify.app"
           rel="noopener noreferrer"
           target="_blank"
+          aria-label="Odwiedź mój profil na https://a-g.netlify.app"
         >
           <RightsReserved>ag 2020 - {new Date().getFullYear()}.</RightsReserved>
         </LinkExt>
