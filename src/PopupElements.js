@@ -40,12 +40,8 @@ export const PopupInner = styled.div`
     max-width: 90%;
     padding: 15px;
     margin: 0 auto;
-    height: 95vh;
+    max-height: 95vh;
     overflow-y: auto;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -53,6 +49,7 @@ export const PopupInner = styled.div`
 
     img {
       max-width: 100%;
+      height: auto;
     }
   }
 `;
