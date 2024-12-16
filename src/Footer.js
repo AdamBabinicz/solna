@@ -83,7 +83,7 @@ const SocialIcon = styled.div`
     }
   }
   @media screen and (max-width: 480px) {
-    font-size: 14px;
+    font-size: 17px;
   }
   &:hover {
     color: ${theme.third};
@@ -103,7 +103,7 @@ const LinkExt = styled(Link)`
     }
   }
   @media screen and (max-width: 480px) {
-    font-size: 12px;
+    font-size: 1.5rem;
   }
   &:hover {
     color: ${theme.third};
