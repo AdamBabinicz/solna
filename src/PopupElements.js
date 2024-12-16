@@ -40,7 +40,12 @@ export const PopupInner = styled.div`
     max-width: 90%;
     padding: 15px;
     margin: 0 auto;
-    max-height: fit-content;
+    max-height: 90vh;
+    overflow-y: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
     img {
       max-width: 100%;
