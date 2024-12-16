@@ -48,7 +48,7 @@ export const PopupInner = styled.div`
     align-items: center;
 
     img {
-      max-width: 100%;
+      /* max-width: 100%; */
       height: auto;
     }
   }
