@@ -7,7 +7,7 @@ const Card = (props) => {
   const [buttonPopup, setButtonPopup] = useState(false);
 
   return (
-    <div className="col-md-4 col-10 mx-auto">
+    <div className="col-md-4 col-12 mx-auto">
       <div className="card">
         <img src={props.imgsrc} alt={props.imgsrc} className="card-img-top" />
         <div className="card-body">

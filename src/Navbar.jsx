@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <div className="container-fluid nav_bg">
       <div className="row">
-        <div className="col-10 mx-auto">
+        <div className="col-12 mx-auto">
           <nav className="navbar navbar-expand-lg navbar-dark n">
             <NavLink exact className="navbar-brand" to="/">
               dom rodzinny przy ul. Solnej &nbsp;
